@@ -1,4 +1,15 @@
-body {
+body{
+  background-color: lightblue;
+}
 
-  background: lightblue;
+.heart{
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  font-size: 5em;
+}
+
+img {
+  width: 45%;
+  text-align: center;
 }
