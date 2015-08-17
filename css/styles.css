@@ -1,21 +1,4 @@
 body{
-  background-color: lightblue;
-}
-
-.heart{
-  position: absolute;
-  left: 50%;
-  top: 25%;
-  font-size: 5em;
-}
-
-img {
-  width: 45%;
-  text-align: center;
-  margin-left: 30%;
-
-}
-
-h3 {
+  background-color: whitesmoke;
   text-align: center;
 }
