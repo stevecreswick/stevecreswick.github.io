@@ -1,22 +1,62 @@
 body{
-  background-color: rgb(242, 234, 240);
+  background-color: rgb(255,250,240);
   text-align: center;
 }
 
 img {
   max-width: 100%;
+  border: 4px solid;
+  border-color: rgb(220,20,60);
   border-radius: 5px;
 }
 
+h1 {
+  /*font-family: 'Trade Winds', cursive;*/
+  font-family: 'IM Fell English SC', serif;
+  font-size: 75px;
+}
 h4 {
+  /*font-family: 'Trade Winds', cursive;*/
+  font-family: 'IM Fell English SC', serif;
   text-align: left;
+
+}
+h5 {
+font-family: 'Slabo 27px', serif;
 }
 
 h6  {
   text-align: left;
   font-weight: bold;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 p {
   text-align: left;
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
 }
+
+.line {
+  float: left;
+  border-right: red dashed 5px;
+  height: 15em;
+  width: 0%;
+  margin-left: 20%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
