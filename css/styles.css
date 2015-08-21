@@ -55,6 +55,10 @@ p {
      clear: both;
      height: 0;
      }
+
+     a {
+       text-decoration: none;
+     }
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
