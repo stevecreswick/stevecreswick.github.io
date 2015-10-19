@@ -2,103 +2,375 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Steve Creswick</title>
+    <title></title>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css">
+
+
     <script type="text/javascript" src='javascripts/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
     <script type="text/javascript" src='javascripts/scripts.js'></script>
+
+
   </head>
   <body>
 
+    <!-- <nav>
+   <div class="nav-wrapper">
+     <a href="#" class="brand-logo">Logo</a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li><a href="sass.html">Sass</a></li>
+       <li><a href="badges.html">Components</a></li>
+       <li><a href="collapsible.html">JavaScript</a></li>
+     </ul>
+   </div>
+ </nav> -->
 
-    <div class="container-fluid">
+ <ul class="nav-links fixed-menu">
+   <li class="menu-links"><a href="#top" class="amber-text text-lighten-1"><i class="material-icons">navigation</i></a></li>
+    <li class="menu-links "><a href="#projects" class="amber-text text-lighten-4"><i class="material-icons">work</i></a></li>
+    <li class="menu-links"><a href="#skills" class="amber-text text-lighten-3"><i class="material-icons">stars</i></a></li>
+   <li class="menu-links"><a href="#testimonials" class="amber-text text-lighten-2"><i class="material-icons">hearing</i></a></li>
+ </ul>
 
-      <div class="full-page">
+ <!-- Night Sky -->
+     <div class="parallax-container intro-page" id="top">
+       <h1 class="my-name">Steve Creswick</h1>
+       <h5 class="my-titles">Web Developer | UX Designer | Renaissance Man</h5>
+      <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/skyovertown_zpsgy4hcrpv.jpeg" class="main-image"></div>
+     </div>
 
+
+<!-- Menu -->
+     <div class="section purple lighten-5 title-section">
+
+               <div class="link-bar">
+                 <a href="http://www.linkedin.com" class="link-bar-icon">
+                   <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/c25d10_e56e7a9bc52b4892b9de474e7d41662d_zpsxszmtpf2.png" alt="LinkedIn" class="menu-bar-icon"/>
+                 </a>
+                 <a href="http://www.github.com">
+                   <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/github_icon_zps8xda3aob.png" alt="GitHub" class="menu-bar-icon"/>
+                 </a>
+                 <a href="http://www.linkedin.com">
+                   <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/iconmonstr-email-icon_zpsn58le1qi.png" alt="Email" class="menu-bar-icon"/>
+                 </a>
+               </div>
+
+
+         <!-- <p class="deep-purple-text text-lighten-5">Menu</p> -->
+
+     </div>
+
+
+<!-- Past Work -->
+     <div class="section black" id="projects">
+       <div class="row container">
+         <h2 class="deep-purple-text text-lighten-5 chapter-header">Work</h2>
+       </div>
+     </div>
+
+<!-- Write Away -->
+ <div class="parallax-container main-project">
+   <a href="https://writeawayapp.herokuapp.com"  id="project-header-one"><h1 class="write-away">Write Away</h1></a>
+     <p class="grey-text text-darken-3 lighten-3 tagline">A social network for aspiring writers built with Backbone.js and Rails</p>
+     <ul class="features">
+         <li class="feature-li">
+           <span class="bullet-point">Find Inspiration </span><br>
+           Generate writing prompts to practice writing new ideas.
+         </li>
+         <li class="feature-li">
+           <span class="bullet-point">Get Feedback </span><br>
+           Receive writing advice from other users.
+         </li>
+         <li class="feature-li">
+           <span class="bullet-point">Make Friends </span><br>
+           Find writing partners to practice your craft and issue writing challenges to your friends.
+        </li>
+     </ul>
+     <a class="waves-effect waves-light btn-large visit-write-away" href="https://writeawayapp.herokuapp.com">Visit<i class="material-icons right">cloud</i></a>
+
+  <div class="parallax"><img src="https://images.unsplash.com/photo-1429032021766-c6a53949594f?q=80&fm=jpg&w=1080&fit=max&s=91e9c91be05bef51c7419dd1ca0d61e4"></div>
+</div>
+
+<!-- Position  -->
+<div class="section grey darken-4 project" id="project-one">
+  <div class="row container">
+    <div class="app-screenshot">
+      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/Screen%20Shot%202015-09-18%20at%2012.48.42%20AM_zpsddmnfljc.png" alt="position" />
+    </div>
+    <div class="technology-box right-align hide-div">
+      Tech Tech Tech
+    </div>
+    <h3 class="project-header green-text text-accent-3">Position</h3>
+    <p class="white-text sub-tagline">An educational stock trading simulation built with Backbone.js and Rails</p>
+    <br>
+    <p class="white-text sub-tagline"><i class="material-icons">search</i> Research real-time stock information <br>
+    <i class="material-icons">swap_horiz</i> Buy and sell stocks <br>
+    <i class="material-icons">trending_up</i> Track your progress against other users
+    </p>
+  </div>
+</div>
+
+  <!-- Tic Tac Toe -->
+    <div class="parallax-container project">
+      <h1 class="project-header space-ttt-header">Intergalactic <br> Tic Tac Toe</h1>
+      <p class="third-tagline">A game of Tic Tac Toe inside a game of Tic Tac Toe, built with Javascript</p>
+      <div class="parallax-app-screenshot">
+        <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/Screen%20Shot%202015-10-18%20at%205.43.13%20PM_zpsthtdjhm8.png" alt="tic-tac-toe" />
       </div>
 
-
-      <div class="row">
-        <h1 class="animated bounceInDown">Steve Creswick</h1>
-      </div>
-      <div class="row page-subline">
-        <h5 class="animated fadeIn">Web Developer | UX Designer<h5>
-      </div>
-
-
-      <div class="row pane red-pane">
-
-      </div>
-
-
-      <br /> <br /> <br />
-      <div class="row">
-        <div class="twelve columns">
-          <h4 class="projects-header">Projects</h4>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="six columns">
-          <a href="http://www.stevecreswick.com/TicTacToe"><img src="http://i.imgur.com/MJua7r0.png" alt="Write Away" /></a>
-        </div>
-        <div class="six columns">
-          <h6><a href="http://www.stevecreswick.com/TicTacToe">Write Away</a><br><span class="sub-header">A social network for aspiring writers built with Ruby on Rails and Backbone</span></h6>
-          <p>
-
-          </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <br /> <br />
-          Technologies: HTML, CSS, Javascript, jQuery
-        </p>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="six columns">
-          <a href="http://www.stevecreswick.com/TicTacToe"><img src="http://i.imgur.com/MJua7r0.png" alt="Intergalactic Tic Tac Toe" /></a>
-        </div>
-        <div class="six columns">
-          <h6><a href="http://www.stevecreswick.com/TicTacToe">Position</a><br><span class="sub-header">An online stock trading simulator built with Ruby on Rails and Backbone</span></h6>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <br /> <br />
-          Technologies: HTML, CSS, Javascript, jQuery
-        </p>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="six columns">
-          <a href="http://www.stevecreswick.com/TicTacToe"><img src="http://i.imgur.com/MJua7r0.png" alt="Intergalactic Tic Tac Toe" /></a>
-        </div>
-        <div class="six columns">
-          <h6><a href="http://www.stevecreswick.com/TicTacToe">Intergalactic Tic Tac Toe</a><br><span class="sub-header">A game of tic tac toe within a game of tic tac toe within a game of tic tac toe </span></h6>
-        <p>
-          Three weeks into learning how to code, I was given the challenge of making a Tic Tac Toe game.  Tic Tac Toe was always boring to me (and anyone who has ever played it), so I decided to make 27 boards in one, and put the fate of the Universe at stake.
-          <br /> <br />
-          Technologies: HTML, CSS, Javascript, jQuery
-        </p>
-        </div>
-      </div>
-
-
-
-
-
+     <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/starrynighttrees_zpshl7ycq5h.jpeg"></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+      <div  id="skills"></div>
+        <div class="section purple lighten-5 title-section">
+
+                  <div class="link-bar">
+                    <a href="http://www.linkedin.com" class="link-bar-icon">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/c25d10_e56e7a9bc52b4892b9de474e7d41662d_zpsxszmtpf2.png" alt="LinkedIn" class="menu-bar-icon"/>
+                    </a>
+                    <a href="http://www.github.com">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/github_icon_zps8xda3aob.png" alt="GitHub" class="menu-bar-icon"/>
+                    </a>
+                    <a href="http://www.linkedin.com">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/iconmonstr-email-icon_zpsn58le1qi.png" alt="Email" class="menu-bar-icon"/>
+                    </a>
+                  </div>
+
+
+            <!-- <p class="deep-purple-text text-lighten-5">Menu</p> -->
+
+        </div>
+
+    <!-- Skills -->
+    <div class="section black">
+           <div class="row container">
+             <h3 class="deep-purple-text text-lighten-5 chapter-header">Experience</h3>
+           </div>
+         </div>
+
+    <!-- Spinning through the stars -->
+    <div class="parallax-container">
+      <h1 class="project-header"></h1>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+
+                     <table class="skills-table">
+
+                      <tbody>
+                        <th>Front End</th>
+                        <th>Back End</th>
+                        <th>Other</th>
+                        <tr>
+                          <td>Javascript</td>
+                          <td>Ruby on Rails</td>
+                          <td>UX Research/Design</td>
+                        </tr>
+                        <tr>
+                          <td>Angular</td>
+                          <td>Node.js</td>
+                          <td>Project Management</td>
+                        </tr>
+                        <tr>
+                          <td>Backbone</td>
+                          <td>Sinatra</td>
+                          <td>Marketing</td>
+                        </tr>
+                        <tr>
+                          <td>Express</td>
+                          <td>postgreSQL</td>
+                          <td>Writing / Copywriting</td>
+                        </tr>
+                        <tr>
+                          <td>jQuery</td>
+                          <td>MongoDB</td>
+                          <td>Generating Ideas</td>
+                        </tr>
+                        <tr>
+                          <td>CSS</td>
+                          <td></td>
+                          <td>Puns</td>
+                        </tr>
+                        <tr>
+                          <td>HTML</td>
+                          <td></td>
+                          <td>Jumpshot</td>
+                        </tr>
+                        <tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+     <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/spinnystar_zpsntku5pr5.jpeg"></div>
+    </div>
+
+    <!-- Testimonials -->
+    <div id="testimonials"></div>
+         <div class="section black">
+           <div class="row container">
+             <h4 class="black">_</h4>
+           </div>
+         </div>
+
+
+<!-- Mountain -->
+         <div class="parallax-container">
+           <h2 class="commercial-main-header">Lost Historical Quotes <br>About Steve</h2>
+
+                  <div class="link-bar-bottom">
+                    <a href="http://www.linkedin.com" class="link-bar-icon">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/c25d10_e56e7a9bc52b4892b9de474e7d41662d_zpsxszmtpf2.png" alt="LinkedIn" class="link-bar-icon"/>
+                    </a>
+                    <a href="http://www.github.com">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/github_icon_zps8xda3aob.png" alt="GitHub" class="link-bar-icon"/>
+                    </a>
+                    <a href="http://www.linkedin.com">
+                      <img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/iconmonstr-email-icon_zpsn58le1qi.png" alt="Email" class="link-bar-icon"/>
+                    </a>
+                  </div>
+
+           <h5 class="commercial-main-sub-header">a parallax commercial</h5>
+
+          <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/paradisemountains_zpstqpv9lcw.jpeg"></div>
+         </div>
+
+           <div class="section black">
+           <div class="row container">
+             <h4 class="black">_</h4>
+           </div>
+           </div>
+
+
+<!-- Treetops -->
+           <div class="parallax-container">
+
+
+             <h5 class="commercial-sub-header-right white-text">"I wrote that life, liberty, and pursuit of happiness bit after watching Steve code."</h5>
+             <h5 class="quote-author-right white-text"><img src="http://a1.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU1MDEwMjQ4MjA3.jpg" class="author-image" alt="" /> Thomas Jefferson </h5>
+
+            <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/treetops_zpsnkp7mzpz.jpeg"></div>
+           </div>
+
+             <div class="section black">
+             <div class="row container"></div>
+             </div>
+
+<!-- Trees -->
+    <div class="parallax-container">
+
+      <h5 class="commercial-sub-header-center">"Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.  Except for Steve...he asks too many questions."</h5>
+      <h5 class="quote-author-center white-text"><img src="http://englishbookgeorgia.com/blogebg/wp-content/uploads/2014/12/Albert-Einstein.jpg" class="author-image" alt="" />  Albert Einstein</h5>
+     <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/Trees_zpsborq81u9.jpeg"></div>
+    </div>
+
+      <div class="section black">
+      <div class="row container"></div>
+      </div>
+
+      <!-- Owl -->
+      <div class="parallax-container">
+
+        <h5 class="commercial-sub-header-left white-text">"I took three of Steve's websites on the arc."</h5>
+        <h5 class="quote-author-left white-text"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Noah_mosaic.JPG" class="author-image" alt="" />  Noah</h5>
+
+       <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/owlie_zpslzp389vd.jpeg"></div>
+      </div>
+
+      <div class="section black">
+      <div class="row container"></div>
+      </div>
+
+
+    <!-- Running In Woods -->
+        <div class="parallax-container">
+
+          <h5 class="commercial-sub-header-right white-text long-quote">"It is not the strongest of a species that survives, nor the most intelligent that survives.  It is the one that is most adaptable to change  ...and everytime I try to trade Steve four quarters for a dollar bill, he gladly accepts.  He's a survivor.</h5>
+          <h5 class="quote-author-right white-text"><img src="http://aeu.org/wp-content/uploads/darwin_home.jpg" class="author-image" alt="" />  Charles Darwin <br> On the Origin of Species</h5>
+
+
+         <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/runninginwoods_zpswtpfpjiz.jpeg"></div>
+        </div>
+
+        <div class="section black">
+        <div class="row container"></div>
+        </div>
+
+     <!-- Dirt -->
+        <div class="parallax-container">
+
+          <h5 class="commercial-sub-header-center white-text">"All roads lead to Rome, but if you are looking for a quality Web Developer.  All fingers point to Steve."</h5>
+          <h5 class="quote-author-center white-text"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/C%C3%A4sar.jpg" class="author-image" alt="" />  Julius Caesar</h5>
+
+          <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/dirt_zpslmfmggl1.jpeg"></div>
+        </div>
+        <div class="section black">
+        <div class="row container"></div>
+        </div>
+
+
+     <!-- Two Roads -->
+     <div class="parallax-container">
+
+       <h5 class="commercial-sub-header-right white-text">"The Road Less Traveled actually had a sign post. <br> It read, 'Creswick Way.'"</h5>
+       <h5 class="quote-author-right white-text"><img src="http://thenewschoolhistory.org/wp-content/uploads/2014/11/frost.jpg" class="author-image" alt="" />  Robert Frost</h5>
+
+      <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/roadlesstraveled_zpsktj4fggd.jpeg"></div>
+     </div>
+
+     <div class="section black">
+     <div class="row container"></div>
+     </div>
+
+
+     <!-- Guy -->
+     <div class="parallax-container">
+
+       <h5 class="commercial-main-header white-text">"Want a good strategy? <br> Have Steve on your side for what's ahead."</h5>
+       <h5 class="quote-author-center white-text"><img src="https://thishilariousearth.files.wordpress.com/2014/11/suntzu2.jpg?w=485&h=322&crop=1" class="author-image" alt="" />  Sun Tzu<br> The Art of War II</h5>
+
+      <div class="parallax"><img src="http://i1027.photobucket.com/albums/y332/SteveCreswick/staringatmountains_zpsd2julrad.jpeg"></div>
+     </div>
+
+     <div class="section black">
+       <div class="row container">
+         <h4 class="deep-purple-text text-lighten-5 commercial-main-header">Steve Creswick <br>screswick@gmail.com</h4>
+       </div>
+     </div>
+
+     <div class="section black">
+     <div class="row container"></div>
+     </div>
+
+     <div class="section white">
+     <div class="row container">
+     <!-- <div class="headshot-bottom"></div> -->
+     </div>
+     </div>
+
+     <div class="section black">
+     <div class="row container"></div>
+     </div>
+
+
+
+
+
   </body>
 </html>
