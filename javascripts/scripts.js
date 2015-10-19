@@ -88,10 +88,10 @@ $( document ).ready(function() {
     });
   });
 
-  $('#project-one').on("mouseover", function(){
-    console.log('clicked');
-    $('.technology-box').removeClass('hide-div');
-  });
+  // $('#project-one').on("mouseover", function(){
+  //   console.log('clicked');
+  //   $('.technology-box').removeClass('hide-div');
+  // });
 
   $('.parallax').parallax();
 

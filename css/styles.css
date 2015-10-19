@@ -387,7 +387,7 @@ a:link {
   width: 400px;
 }
 
-.app-screenshot > img{
+.app-screenshot > a > img{
   width: 100%;
   border: 1px solid grey;
 }
@@ -413,7 +413,7 @@ a:link {
   display: inline-block;
 }
 
-.parallax-app-screenshot > img {
+.parallax-app-screenshot > a > img {
   width: 100%;
   border: 1px solid yellow;
 
