@@ -1,29 +1,13 @@
-body{
-  background-color: rgb(255,250,240);
+body {
+  background-color: black;
   text-align: center;
-  /*height: 10000px;*/
-}
-
-/*img {
-  max-width: 100%;
-  border: 4px solid;
-}*/
-
-/*h1 {
-  font-family: 'Trade Winds', cursive;
-  font-family: 'IM Fell English SC', serif;
-  font-size: 75px;
-}*/
-
-h4 {
-  /*font-family: 'Trade Winds', cursive;*/
 }
 
 h5 {
 font-family: 'Slabo 27px', serif;
 }
 
-h6  {
+h6 {
   text-align: left;
   font-weight: bold;
   font-family: 'IM Fell English SC', serif;
@@ -52,10 +36,11 @@ p {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
+
 a:visited {
   text-decoration: none;
 }
@@ -65,7 +50,6 @@ a:link {
 }
 
 /* Hero Image */
-
 .hero-container {
   height: 700px;
 }
@@ -139,14 +123,14 @@ a:link {
   display: inline;
 }
 
-.app-screenshot{
+.app-screenshot {
   float: right;
   right: 0;
   margin-right: -10%;
   width: 400px;
 }
 
-.app-screenshot > a > img{
+.app-screenshot > a > img {
   width: 100%;
   border: 1px solid grey;
 }
