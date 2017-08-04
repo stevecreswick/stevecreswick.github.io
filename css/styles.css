@@ -37,14 +37,6 @@ p {
   font-size: 18px;
 }
 
-.line {
-  float: left;
-  border-right: red dashed 5px;
-  height: 15em;
-  width: 0%;
-  margin-left: 20%;
-}
-
 .clearfix:after {
    visibility: hidden;
    display: block;
@@ -72,275 +64,20 @@ a:link {
   text-decoration: none;
 }
 
+/* Hero Image */
+
 .hero-container {
   height: 700px;
 }
 
-.page-header {
-  position: absolute;
-  display: block;
-}
-
-.platform {
-  position: absolute;
-  top: 1500px;
-  width: 50%;
-  height: 4em;
-  background-color: black;
-  margin-left: 25%;
-}
-
-
-.sub-header{
-  text-align: left;
-  font-family: 'Slabo 27px', serif;
-  font-size: 16px;
-  color: black;
-}
-
-.pane{
-  height: 15em;
-}
-
-.page-one{
-  /*height: 45em;*/
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    background: rgba(70,130,180,1);
-    /*background-image: url('../images/stardust_@2X.png');*/
-    z-index: 10;
-    display: block;
-}
-
-.full-page{
-  /*height: 45em;*/
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    background: rgba(255,255,255,1);
-    /*background-image: url('../images/stardust_@2X.png');*/
-    z-index: 0;
-    display: block;
-    overflow: auto;
-}
-
-.main-page-bar{
-  width: 50%;
-  height:25%;
-  float: left;
-  position: absolute;
-  z-index: 11;
-
-  /*top: 50%;*/
-}
-
-.stardust{
-  background-image: url('../images/stardust_@2X.png');
-}
-
-.hide-div{
-  display: none;
-}
-
-#slide-two{
-
-}
-
-.main-name{
-  margin-top: -3em;
-  font-family: 'Abel', sans-serif;
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-.header-name{
-  font-family: 'Abel', sans-serif;
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-.nav-header-name{
-  font-family: 'Abel', sans-serif;
-  text-align: left;
-  color: white;
-  float: left;
-}
-
-.main-sub-header{
-  font-family: 'Abel', sans-serif;
-  color: floralwhite;
-  font-size: 1.4em;
-}
-
-.header-container{
-  /*text-align: center;*/
-  width: 100%;
-}
-
-.arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-
-	border-top: 20px solid white;
-}
-
-.quote-box{
-  color: floralwhite;
-  font-family: 'Arvo', serif;
-  font-size: 1.1em;
-  height: 10em;
-  /*padding-right: 10%;*/
-  right: 0;
-  text-align: left;
-  margin-top: 3em;
-}
-
-.author-name{
-  width: 100%;
-  text-align: right;
-}
-
-
-.headshot{
-  background: url('http://i1027.photobucket.com/albums/y332/SteveCreswick/SC_headshot_zpsgxerlqa3.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
-  float: right;
-  right: 0;
-  background-position: 50%;
-  border-radius: 50%;
-  margin-top: 2em;
-  margin-right: 5%;
-  margin-left: -5%;
-
-  display: inline-flex;
-}
-
-
-
-.menu-bar-icon{
-  height: 80%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  border: none;
-}
-
-.section-text{
-  width: 75%;
-  text-align: center;
-}
-
-.change-page{
-  margin-top: -2em;
-}
-
-
-#about{
-  height: 500px;
-}
-
-#page-menu{
-  height: 150px;
-  width: 100%;
-  background-color: rgba(255,255,255,1);
-  position: fixed;
-}
-
-.headshot-mini {
-  background: url('http://i1027.photobucket.com/albums/y332/SteveCreswick/SC_headshot_zpsgxerlqa3.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100px;
-  width: 100px;
-  float: right;
-  right: 0;
-  background-position: 50%;
-  margin-top: 1em;
-  margin-right: 5%;
-  margin-left: -5%;
-
-  display: inline-block;
-}
-
-.project {
-  height: 375px;
-}
-
-.project-header{
-  text-align: left;
-  margin-top: 1em;
-}
-
-.technology-box{
-  color: blue;
-  float: right;
-  margin-top: -5em;
-  margin-right: 5%;
-}
-
-#project-header-one{
-  color: black;
-}
-
-#project-header-one.project-header{
-  font-size: 100em;
-
-}
-
-.parallax > img {
-    width: 100%;
-}
-
-.steve-image{
-  /*margin-left: 25%;*/
-
-}
-
-.write-away{
-  color: black;
-  font-family: 'Damion', cursive;
-  text-align: left;
-  font-size: 7em;
-  margin-left: 6%;
-}
-
-
-/* Featured */
-
-.quote-and-author {
-  float: right;
-  margin-right: 40px;
-}
-
-.hero-quote {
-  max-width: 400px;
-  margin-top: 6em;
-  text-align: left;
-}
-
-.tagline{
-  margin-left: 10%;
-}
-
-.my-name{
+.my-name {
   font-family: 'Poiret One', cursive;
   color: floralwhite;
   margin-top: 1.3em;
   font-size: 6em;
 }
 
-.my-titles{
+.my-titles {
   font-family: 'Titillium Web', sans-serif;
   color: floralwhite;
   font-size: 1em;
@@ -357,16 +94,8 @@ a:link {
   text-align: center;
 }
 
-.top-caption {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.1em;
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 100%;
-  text-align: left;
-  color: white;
-}
 
+/* About Steve */
 .about-steve {
   height: auto;
   padding-top: 4em;
@@ -381,27 +110,26 @@ a:link {
   color: white;
   font-family: 'Titillium Web', sans-serif;
 }
-.features{
-  margin-left: 20%;
-  width: 25%;
-}
-
-.bullet-point{
-  font-size: 1.3em;
-  margin-top: -1em;
-  text-align: left;
-}
-
-.feature-li{
-  text-align: left;
-}
 
 /* Projects */
 
+.project {
+  height: 375px;
+}
 
-/* Quotes */
+.project-header{
+  text-align: left;
+  margin-top: 1em;
+}
 
-
+/* Write Away */
+.write-away {
+  color: black;
+  font-family: 'Damion', cursive;
+  text-align: left;
+  font-size: 7em;
+  margin-left: 6%;
+}
 
 .visit-write-away{
   float: right;
@@ -423,19 +151,15 @@ a:link {
   border: 1px solid grey;
 }
 
-.sub-tagline{
-  width: 50%;
-  margin-top: -0.7em;
-}
-
-.space-ttt-header{
+/* Tic Tac Toe */
+.space-ttt-header {
   font-family: 'Black Ops One', cursive;
   margin-left: 10%;
   /*width: 45%;*/
   color: yellow;
 }
 
-.parallax-app-screenshot{
+.parallax-app-screenshot {
   float: right;
   right: 0;
   margin-right: 8%;
@@ -447,7 +171,26 @@ a:link {
 .parallax-app-screenshot > a > img {
   width: 100%;
   border: 1px solid yellow;
+}
 
+.features {
+  margin-left: 20%;
+  width: 25%;
+}
+
+.bullet-point {
+  font-size: 1.3em;
+  margin-top: -1em;
+  text-align: left;
+}
+
+.feature-li {
+  text-align: left;
+}
+
+.sub-tagline{
+  width: 50%;
+  margin-top: -0.7em;
 }
 
 .third-tagline{
@@ -459,13 +202,50 @@ a:link {
   display: inline-block;
 }
 
+.main-project{
+  height: 450px;
+}
+
+/* Skills */
+.skills-table {
+  height: 3em;
+}
+
+th {
+  font-family: 'Poiret One', cursive;
+  color: rgb(255,215,0);
+  text-align: center;
+  font-size: 1.8em;
+
+}
+
+td {
+  font-family: 'Titillium Web', sans-serif;
+  /*color: rgb(255,215,0);*/
+  color: white;
+  padding: 0;
+  width: 33%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Universal */
+.parallax > img {
+  width: 100%;
+}
+
 .title-section{
   height: 5em;
   text-align: left;
 }
 
-.main-project{
-  height: 450px;
+/* Navigation and Menus */
+
+.menu-bar-icon{
+  height: 80%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border: none;
 }
 
 .menu-links{
@@ -478,40 +258,14 @@ a:link {
   padding-right: 5%;
 }
 
-.fixed-menu{
+.fixed-menu {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
 }
 
-#projects{
-  /*background-color: rgb(38, 5, 62)*/
-}
-
-.skills-table{
-  height: 3em;
-}
-
-th{
-  font-family: 'Poiret One', cursive;
-  color: rgb(255,215,0);
-  text-align: center;
-  font-size: 1.8em;
-
-}
-
-td{
-  font-family: 'Titillium Web', sans-serif;
-  /*color: rgb(255,215,0);*/
-  color: white;
-  padding: 0;
-  width: 33%;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-.link-bar{
+.link-bar {
   text-align: left;
   position: absolute;
   height: 3em;
@@ -519,7 +273,7 @@ td{
   margin-top: 0.5em;
 }
 
-.link-bar-bottom{
+.link-bar-bottom {
   text-align: left;
   position: absolute;
   height: 3em;
@@ -528,61 +282,7 @@ td{
   top: 0;
 }
 
-.link-bar-icon{
-  /*margin-right: 5%;*/
-}
-
-.commercial-main-header{
-  font-family: 'Titillium Web', sans-serif;
-  margin-top: 3em;
-}
-
-.commercial-main-sub-header{
-  font-family: 'Poiret One', cursive;
-  margin-top: 3em;
-  padding-left: 25%;
-  padding-right: 25%;
-  text-align: center;
-}
-
-.commercial-header-left{
-  margin-top: 2em;
-  text-align: left;
-  padding-left: 10%;
-}
-
-.commercial-sub-header-left{
-  margin-top: 10em;
-  padding-left: 10%;
-  padding-right: 50%;
-  text-align: left;
-}
-
-.commercial-header-right{
-  margin-top: 2em;
-  text-align: left;
-  padding-left: 50%;
-}
-
-.commercial-sub-header-right{
-  margin-top: 11em;
-  padding-left: 50%;
-  padding-right: 9%;
-  text-align: left;
-  /*margin-left: 0%;*/
-}
-
-
-
-.commercial-sub-header-center{
-  margin-top: 9em;
-  padding-left: 25%;
-  padding-right: 25%;
-  text-align: center;
-  /*margin-left: 0%;*/
-}
-
-.link-bar-icon{
+.link-bar-icon {
   height: 80%;
   margin-left: 5%;
   margin-bottom: 5%;
@@ -590,37 +290,73 @@ td{
   text-align: left;
 }
 
-.quote-author-left{
-  text-align: left;
-  padding-left: 35%;
+/* Quote Backdrops */
+
+.commercial-main-header {
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 3em;
 }
 
-.quote-author-right{
-  text-align: right;
-  padding-right: 15%;
-}
-
-.quote-author-center{
+.commercial-main-sub-header {
+  font-family: 'Poiret One', cursive;
+  margin-top: 3em;
+  padding-left: 25%;
+  padding-right: 25%;
   text-align: center;
-  padding-left: 30%;
-  margin-top: -1em;
 }
-/*.headshot-bottom{
-  background: url('http://i1027.photobucket.com/albums/y332/SteveCreswick/SC_headshot_zpsgxerlqa3.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 200px;
-  float: right;
-  right: 0;
+
+.commercial-header-left {
   margin-top: 2em;
-  margin-right: 5%;
-  margin-left: -5%;
+  text-align: left;
+  padding-left: 10%;
+}
 
-  display: inline-flex;
-}*/
+.commercial-sub-header-left {
+  margin-top: 10em;
+  padding-left: 10%;
+  padding-right: 50%;
+  text-align: left;
+}
 
-.author-image{
+.commercial-header-right {
+  margin-top: 2em;
+  text-align: left;
+  padding-left: 50%;
+}
+
+.commercial-sub-header-right {
+  margin-top: 11em;
+  padding-left: 50%;
+  padding-right: 9%;
+  text-align: left;
+  /*margin-left: 0%;*/
+}
+
+.commercial-sub-header-center {
+  margin-top: 9em;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  /*margin-left: 0%;*/
+}
+
+/* Quotes */
+.quote-and-author {
+  float: right;
+  margin-right: 40px;
+}
+
+.top-caption {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+  text-align: left;
+  color: white;
+}
+
+.author-image {
   height: 50px;
   width: 50px;
   border-radius: 100px;
@@ -628,14 +364,29 @@ td{
   margin-top: 1em;
   margin-right: 1%;
   border: 2px solid black;
-
 }
 
-.long-quote{
+.quote-author-left {
+  text-align: left;
+  padding-left: 35%;
+}
+
+.quote-author-right {
+  text-align: right;
+  padding-right: 15%;
+}
+
+.quote-author-center {
+  text-align: center;
+  padding-left: 30%;
+  margin-top: -1em;
+}
+
+.long-quote {
   margin-top: 6em;
 }
 
-.chapter-header{
+.chapter-header {
   font-family: 'Titillium Web', sans-serif;
   text-align: left;
 }
