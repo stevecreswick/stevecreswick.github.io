@@ -80,11 +80,6 @@ a:link {
 
 
 /* About Steve */
-.about-steve {
-  height: auto;
-  padding-top: 4em;
-}
-
 .steve-screenshot {
   height: 100%;
   width: 100%;
@@ -123,16 +118,47 @@ a:link {
   display: inline;
 }
 
+.row {
+  width: 80%;
+}
+
+.steve-row {
+  height: auto;
+  padding-top: 4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steve-history {
+  display: inline-block;
+  margin-right: 20px;
+  max-width: 600px;
+}
+
+.tagline {
+  margin-left: 10%;
+}
+
 .app-screenshot {
-  float: right;
-  right: 0;
-  margin-right: -10%;
-  width: 400px;
+  display: inline-block;
+  height: 100%;
+  margin-left: 40px;
+  box-sizing: border-box;
 }
 
 .app-screenshot > a > img {
   width: 100%;
   border: 1px solid grey;
+}
+
+.position-screenshot {
+  max-width: 400px;
+}
+
+.position-header {
+  margin-top: 0;
 }
 
 /* Tic Tac Toe */
@@ -173,7 +199,7 @@ a:link {
 }
 
 .sub-tagline{
-  width: 50%;
+  /*width: 50%;*/
   margin-top: -0.7em;
 }
 
@@ -373,4 +399,20 @@ td {
 .chapter-header {
   font-family: 'Titillium Web', sans-serif;
   text-align: left;
+}
+
+/* Indiv Quotes */
+.galilleo {
+  margin-top: 30%;
+}
+
+.mountains {
+  margin-top: 28%;
+}
+
+.darwin {
+  text-align: left;
+  margin-top: 10%;
+  /*width: 80%;
+  margin: 0 auto;*/
 }
